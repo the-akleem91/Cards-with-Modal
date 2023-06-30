@@ -1,4 +1,5 @@
-import "./CommitieeSpeaker.css";
+import React from "react";
+import "./Card.css";
 
 export default function Commitiee() {
   return (

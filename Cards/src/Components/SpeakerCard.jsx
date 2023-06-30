@@ -1,5 +1,6 @@
+import React from "react";
 import { useState } from "react";
-import "./CommitieeSpeaker.css";
+import "./Card.css";
 
 const speakers = [
   // Existing speaker objects...
