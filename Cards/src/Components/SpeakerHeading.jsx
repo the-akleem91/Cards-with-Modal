@@ -4,12 +4,14 @@ import SpeakerCard from "./SpeakerCard";
 
 const SpeakerHeading=()=>{
     return(
+        <>
         <div className="SpeakContainer">
+            <div className="SpeakerInnerContainer">
+            <h1 className="Sheading">KeyNote Speakers</h1>
             <SpeakerCard />
-            <SpeakerCard />
-            <SpeakerCard />
-
+            </div>
         </div> 
+        </>
     )
 }
 

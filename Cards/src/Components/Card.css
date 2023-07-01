@@ -6,9 +6,7 @@
   
   body {
     background-color: black;
-    font-family: serif;
-    /*padding: 4rem;*/
-  }
+}
   
   .card {
     color: white;
@@ -34,11 +32,11 @@
   .container {
     color: white;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
     text-align: center;
     flex-wrap: wrap;
     align-items: center;
-    margin: 1rem;
+    margin: 2rem;
     line-height: 1.4;
     justify-content: center;
   }
@@ -59,8 +57,7 @@
   }
   
   .container .card:hover {
-    box-shadow: 0px 0px 15px 1px #e0dbdb3f;
-    
+    box-shadow: 0px 0px 15px 1px #e0dbdb3f; 
   }
   
   .card .card-image {
@@ -78,8 +75,8 @@
   /*For speaker Page */
   
   .speaker-card {
-    min-width: 16rem;
-    max-width: 16rem;
+    min-width: 18rem;
+    max-width: 18rem;
     box-shadow: 0px 0px 15px 1px #e0dbdb3f;
     
     height: 23rem;
