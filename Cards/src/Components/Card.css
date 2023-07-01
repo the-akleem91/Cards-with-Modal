@@ -141,11 +141,10 @@
   }
   
   .modal {
-    margin-top: 7.5wh;
-    margin-bottom: 7.5wh;
-    position: absolute;
+    position: fixed;
     left: 50%;
-    transform: translate(-50%, 0);
+    top : 50%;
+    transform: translate(-50%, -50%);
     width: 85vw;
     height: 85vh;
     padding: 2rem;
