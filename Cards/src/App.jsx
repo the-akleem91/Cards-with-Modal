@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import SpeakerCard from './Components/SpeakerCard'
 import CommitteeCard from './Components/CommitteeCard'
-import SpeakerHeading from './Components/SpeakerHeading'
+import SpeakerHeading from './pages/SpeakerHeading'
+import AwardPage from './pages/AwardPage'
 
 
 
@@ -11,7 +12,8 @@ function App() {
     <>
     <br></br>
     <br></br>
-    <SpeakerHeading />
+    
+    <AwardPage />
     </>
   )
 }

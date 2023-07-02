@@ -1,6 +1,6 @@
 import React from "react";
 import './SpeakerHeading.css'
-import SpeakerCard from "./SpeakerCard";
+import SpeakerCard from "../Components/SpeakerCard";
 
 const SpeakerHeading=()=>{
     return(
