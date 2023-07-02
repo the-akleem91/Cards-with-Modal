@@ -6,8 +6,10 @@ import SponsorSection from "../Components/SponsorSection";
 const AwardPage=()=>{
     return(
     <>
+    <Navbar />
     <AwardSection />
     <SponsorSection />
+    <Footer />
     </>
     )
 }
